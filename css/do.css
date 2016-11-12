@@ -1,0 +1,350 @@
+* { margin:0;padding: 0; border:0;}
+body {
+			padding: 1%;
+			color:white;
+			background-color: #2b312e;
+			background-image: url('http://i4.desert-operations.com.br/branding/desertoperations/gfx/style_4/do-video-bg.jpg');	
+			background-repeat: no-repeat;	
+			background-position: center 0px !important;
+			overflow: hidden;
+	}
+div#site {
+				#height: 1035px;
+				width: 1460px;
+				margin: auto;
+				background-repeat: no-repeat;
+				background-position: center;
+	}
+div#topo {		
+				height: 130px;
+				margin: auto;
+				margin-bottom: 0px;		
+				#margin:50 200;
+				background-color: rgba(0, 0, 0, 0.42);	
+				#overflow:auto;
+				#border: 1px solid red;
+		}	
+div#cabecalho {		
+				height: 100px;
+				margin: auto;
+				margin-bottom: 5px;		
+				#margin:50 200;
+				background-color: rgba(0, 0, 0, 0.42);	
+				#overflow:auto;
+				#border: 1px solid red;
+		}		
+div#menu	{
+				background-color: rgba(0, 0, 0, 0.42);
+				margin:auto;
+				height: 30px;
+				margin-bottom: 5px;
+				text-align: center;
+				font-size: 30px;
+				font-family: 'URW Chancery L';				
+	}
+div#meio {
+				width: 100%;
+				background-color: rgba(0, 0, 0, 0.42);
+				height: 700px;
+				#margin: auto;
+				overflow: auto;
+				margin-bottom: 5px;
+				#padding-bottom: 5px; 
+	}
+div#conteudo	{
+						background-color: rgba(0, 0, 0, 0.42);
+						width: 1260px;
+						height: 700px;
+						#margin-left: 5px;
+						float: left;
+						margin-bottom: 5px;
+						overflow: auto;			
+	}
+div#sidebar	{
+					background-color: rgba(0, 0, 0, 0.42);
+					width: 195px;
+					height: 700px;
+					float: right;
+					#border: 1px solid red;
+	}
+div#rodape	{
+					background-color: rgba(0, 0, 0, 0.42);
+					clear: both;
+					height: 60px;
+					text-align: center;
+	}
+	.meioSelecArm	{
+					margin: auto;
+					width: 900px;
+		}
+	.tabelaResumo	{
+					background-color: rgba(0, 0, 0, 0.42);
+		}
+	.tabelaResumo, .tabelaResumo th, .tabelaResumo td {
+									border: 1px solid white;
+				}
+h1 	{
+				font-size: 50;
+				text-align: center;
+				//-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+				//-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+				//box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+				text-shadow: 10px 10px 5px gray;
+		  }
+legend	{
+				text-align: center;
+	}
+	.numeros	{
+					color: yellow;
+					text-align: right;
+		}		  
+	.quadroCombate {
+				#margin-left: 100px;
+				#margin-right: 5px;
+				#width: 1025px;
+				margin-left: 150px;
+				#display: block;
+		}
+fieldset 	{
+			border:2px solid white;
+			padding:15px;
+			background-color: rgba(0, 0, 0, 0.42);
+	}
+	.legenda1	{
+				#text-align: left;
+				#border-radius: 10px;
+	}
+	.legenda1 div	{
+				#text-align: center;
+	}
+	.fieldset2	{
+				#width: 350px;
+				border-radius: 20px;
+				border: 1px solid white;
+				text-align: left;
+				background-color: rgba(0, 128, 128, 0.32);
+				font-family: arial;
+				#margin: auto;
+		}
+	.fieldSelecArm {
+				margin: auto;
+				width:700px;
+		}
+table, th, td	{
+				#border: 1px solid red;
+	}
+caption	{
+				text-align: right;
+	}
+	.tituloArma {
+				border-radius: 20px;
+				#border: 1px solid white;
+				padding: 5px;
+				background: green;
+				float: left;
+				margin-left: 20px;
+		}
+	.unidade	{
+				float: right;
+				margin-right: 15px;	
+		}
+	.armamento	{
+				width: 330px;
+				float: left;
+		}
+	.qntArmamentos	{
+				float: right;
+				#width: 5px;
+		}
+	.seta	{
+				float:left; 		
+		}	
+	.exercito	{
+				float: left;
+				width: 550px;
+				margin-top: 10px;
+				margin-right: 40px;
+				border-radius: 20px;
+				#padding-bottom: 50px;
+				#border: 1px solid red;
+		}  
+	.aeronautica	{
+				margin-top: 10px;
+				float: left;
+				width: 550px;
+				border-radius: 20px;
+				#padding-bottom: 50px;
+				#border: 1px solid green;
+		}
+	.marinha	{
+				clear: both;
+				float: left;
+				margin-top: 30px;
+				margin-right: 40px;
+				width: 550px;
+				border-radius: 20px;
+				#border: 1px solid yellow;
+		}
+	.defesa	{
+				float: left;
+				#margin-left: 90px;
+				margin-top: 30px;
+				width: 550px;
+				border-radius: 20px;
+				#border: 1px solid black;
+		}
+a:link {
+			text-decoration: none;
+	}
+
+	.titulo	{
+					font-family: 'LM Roman 5';
+		}
+	.subtitulo	{
+						font-family: 'URW Chancery L';
+		}
+	.tituloConteudo	{
+								margin-top: 30px;
+								margin-left: 400px;
+								font-family: 'LM Roman Unslanted 10';
+								font-size: 40px;
+								text-shadow: 10px 10px 5px gray;
+		}
+	.copyright	{
+						font-size: 20px;
+		}
+	.botaoPrincipal {
+							float: left;
+							margin-left: 100px;
+							#margin-top: 80px;
+							display: block;
+							#border: 1px solid red;
+			}
+	.gifPrincipal 	{				
+							float: left;
+							#border: 1px solid red;
+							#position: fixed;
+							#margin-top: 100px;
+							#margin-left: 700px;
+			}
+	.gifSelecArm 	{				
+							float: left;
+							#border: 1px solid red;
+							position: fixed;
+							margin-top: 177px;
+							margin-left: 776px;
+			}
+	.nav01	{
+					position: absolute;
+					float: left;
+					top: 80px;
+		}
+	.nav02	{
+					#clear: left;					
+					position: absolute;
+					top: 90px;
+					margin-left: 1350px;
+					#float: left;
+		}
+	.ulsidebar	{
+						list-style: none;	
+						margin: 10px;
+						color: black;			
+			}
+	.ulsidebar li {
+							padding: 10px;
+							margin: 5px;
+							border-radius: 50px;
+							background-color: gray;
+							text-align: center;
+							color: white;
+		}
+	.ulsidebar li:hover	{
+									background-color: white;
+									color: black;	
+		}
+	.ulsidebar li a:visited	{
+									color: white;
+									background-color: white;	
+		}
+	.login	{
+					margin: 10px;
+		}
+	.sombra	{
+					background-color: #d9bf9e;
+					box-shadow: 5px 5px 1px black;
+					font-size: 20px;
+					#color: white;	
+		}
+		
+	.btn {
+				background: #3498db;
+				background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+				background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+				background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+				background-image: -o-linear-gradient(top, #3498db, #2980b9);
+				background-image: linear-gradient(to bottom, #3498db, #2980b9);
+				-webkit-border-radius: 28;
+				-moz-border-radius: 28;
+				border-radius: 28px;
+				font-family: Arial;
+				color: #ffffff;
+				font-size: 20px;
+				padding: 10px 20px 10px 20px;
+				text-decoration: none;
+		}
+	.btn:hover {
+						background: #3cb0fd;
+						background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+						text-decoration: none;
+			}
+	#btn {
+				margin:50;
+		}
+	#btn2 {
+				margin:100;
+		}
+	#btn3 {
+				margin:40 150;
+		}
+
+	.post	{
+ 				overflow:hidden;
+		}
+	.selecao	{
+					background-color: rgba(0, 0, 0, 0.42);	
+					overflow:auto;
+					margin: auto;
+					height: 1200px;
+		}	
+	#btnSimular {	
+						position:fixed;
+						bottom:10px;
+						right:10px;
+			}
+	#btnSimular ul {
+									list-style: none;					
+									display: inline;
+				}
+	#btnSimular li	{
+									list-style: none;					
+									display: inline;
+									padding: 5px;
+									border-radius: 28px;
+				}
+		
+	.defAtk {
+					#margin-left: 40%;
+					#border: 1px solid red;
+					text-align: center;
+					font-size: 30px;
+		}
+
+	.smlComb,select {
+							font-size: 20px;
+							font-weight: bold;
+			}

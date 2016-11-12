@@ -1,0 +1,17 @@
+table{
+	font-size: 25px;
+	position: relative;
+	top: 180px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.82);
+	font-style: italic;
+	font-weight: bolder;
+}
+body {
+		background-image: url('../imagens/soldados.jpg');
+		background-repeat: no-repeat;
+		background-position: center 10px !important;
+}
+div{
+
+}

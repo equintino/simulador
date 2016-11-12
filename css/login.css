@@ -1,0 +1,18 @@
+body {
+}
+div{
+}
+	.bnt {
+			text-align: right;
+			#border: solid 1px red;
+	}
+td	{
+		font-weight: bolder;
+}
+#login a:link{
+		text-decoration: none;
+		color: yellow;
+}
+#login a:visited{
+		color: yellow;
+}

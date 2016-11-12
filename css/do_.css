@@ -1,0 +1,415 @@
+* { margin:0;padding: 0; border:0;}
+body {
+			padding: 1%;
+			color:white;
+			background-color: #2b312e;
+			background-image: url('../imagens/fundoBody_.png');	
+			background-repeat: no-repeat;	
+			background-position: center 0px !important;
+			overflow: hidden;
+	}
+div#site {
+				width: 1100px;
+				margin: auto;
+				background-repeat: no-repeat;
+				background-position: center;
+	}
+div#topo {		
+				height: 130px;
+				margin: auto;
+				margin-bottom: 0px;
+				background-color: rgba(0, 0, 0, 0.42);	
+		}	
+div#cabecalho {		
+				height: 90px;
+				margin: auto;
+				margin-bottom: 5px;
+				background-color: rgba(0, 0, 0, 0.42);	
+		}		
+div#menu	{
+				background-color: rgba(0, 0, 0, 0.42);
+				margin:auto;
+				height: 30px;
+				margin-bottom: 5px;
+				text-align: center;
+				font-size: 30px;
+				font-family: 'URW Chancery L';				
+	}
+div#meio {
+				width: 100%;
+				background-color: rgba(0, 0, 0, 0.42);
+				height: 540px;
+				overflow: auto;
+				margin-bottom: 5px;
+	}
+div#conteudo	{
+						background-color: rgba(0, 0, 0, 0.42);
+						width: 880px;
+						height: 540px;
+						float: left;
+						margin-bottom: 5px;
+						overflow: auto;			
+	}
+div#conteudoEspionagem	{
+						background-color: rgba(0, 0, 0, 0.42);
+						width: 1100px;
+						height: 540px;
+						float: left;
+						margin-bottom: 5px;
+						overflow: auto;			
+	}
+div#sidebar	{
+					background-color: rgba(0, 0, 0, 0.42);
+					width: 214px;
+					height: 540px;
+					float: right;
+	}
+div#rodape	{
+					background-color: rgba(0, 0, 0, 0.42);
+					clear: both;
+					height: 40px;
+					text-align: center;
+	}
+	.meioSelecArm	{
+					margin: auto;
+					width: 840px;
+		}
+table {
+}
+	.msg	{
+			background-color: rgba(0, 0, 0, 0.42);
+			position: relative;
+			top: 50px;
+			margin: auto;
+			width: 500px;
+			text-align: center;
+			font-size: 30px;
+			color: yellow;
+	}
+	.msg .botao{
+			float: right;
+	}
+	.percente{
+			background-color: rgba(0, 0, 0, 0.42);
+			width: 450px;			
+			margin:auto;
+	}
+	.percente td{
+			font-size: 20px;
+	}
+	.tabelaResumo	{
+					background-color: rgba(0, 0, 0, 0.42);
+					border-collapse: collapse;
+		}
+	.tabelaResumo, .tabelaResumo th, .tabelaResumo td {
+									border: 1px solid white;
+									padding: 7px;
+									background-color: #39596D;
+				}
+h1 	{
+				font-size: 45;
+				text-align: center;
+				//-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+				//-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+				//box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+				text-shadow: 10px 10px 5px gray;
+		  }
+legend	{
+				text-align: center;
+	}
+	.numeros	{
+					color: yellow;
+					text-align: right;
+		}		  
+	.quadroCombate {
+				margin-left: 55px;
+		}
+fieldset 	{
+			border:2px solid white;
+			padding:15px;
+			background-color: rgba(0, 0, 0, 0.42);
+	}
+	.fieldset2	{
+				border-radius: 20px;
+				border: 1px solid white;
+				text-align: left;
+				background-color: rgba(0, 128, 128, 0.32);
+				font-family: arial;
+		}
+	.fieldSelecArm {
+				margin: auto;
+				width:600px;
+		}
+caption	{
+				text-align: right;
+	}
+	.captionEspionagem	{
+				font-size: 30px;
+				text-align: center;
+	}
+	.tabEspionagem	{
+				margin: auto;
+				width: 600px;
+				font-size: 20px;
+	}
+	.tabEspionagem2	{
+				margin: auto;
+				width: 700px;
+				font-size: 20px;
+				text-align: center;
+				padding: 5px;
+				border: 1px solid white;		
+				background-color: rgba(0, 0, 0, 0.42);
+	}
+	.tabEspionagem2 table{
+			border-collapse: collapse;
+			margin: auto;
+			font-size: 20px;
+			padding: 10px;
+	}
+	.tabEspionagem2 table td{
+				padding: 2px 20px;
+	}
+	.tabEspionagem3	{
+				margin: auto;
+				#padding: 0px 20px;
+				#font-size: 20px;
+				#text-align: center;
+	}
+	.tabEspionagem3 table {		
+			background-color: rgba(0, 0, 0, 0.42);
+			border-collapse: collapse;
+			margin: auto;
+			width: 600px;
+			background-color: #39596D;
+	}
+	.tabEspionagem3 table td,.tabEspionagem3 table th{
+				padding: 0px 14px;
+				border:  1px solid white;
+	}
+	.voltarEsp1	{
+				margin-left: 765px;
+	}
+	.destaque	{
+			color: yellow;
+	}
+	.destaque2	{
+			font-size: 26px;
+			font-family: 'verdana';
+	}
+	.bntEspionagem	{
+				text-align: right;
+	}
+	.saudacao {
+				text-align: right;
+				font-style: italic;
+	}
+	.tituloArma {
+				border-radius: 20px;
+				padding: 5px;
+				background: green;
+				float: left;
+				margin-left: 20px;
+		}
+	.unidade	{
+				float: right;
+				margin-right: 15px;	
+		}
+	.armamento	{
+				width: 300px;
+				float: left;
+		}
+	.qntArmamentos	{
+				float: right;
+		}
+	.seta	{
+				float:left; 		
+		}	
+	.exercito	{
+				float: left;
+				width: 450px;
+				margin-top: 10px;
+				margin-right: 20px;
+				border-radius: 20px;
+		}  
+	.aeronautica	{
+				margin-top: 10px;
+				float: left;
+				width: 450px;
+				border-radius: 20px;
+		}
+	.marinha	{
+				clear: both;
+				float: left;
+				margin-top: 30px;
+				margin-right: 20px;
+				width: 450px;
+				border-radius: 20px;
+		}
+	.defesa	{
+				float: left;
+				margin-top: 30px;
+				width: 450px;
+				border-radius: 20px;
+		}
+a:link {
+			text-decoration: none;
+	}
+
+	.titulo	{
+					font-family: 'LM Roman 5';
+		}
+	.subtitulo	{
+						font-family: 'URW Chancery L';
+						text-align: center;
+						font-style: italic;
+						//-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+						//-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+						//box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+						text-shadow: 10px 10px 5px gray;
+						font-size: 28px;
+		}
+	.tituloConteudo	{
+								margin-top: 30px;
+								margin-left: 400px;
+								font-family: 'LM Roman Unslanted 10';
+								font-size: 30px;
+								text-shadow: 10px 10px 5px gray;
+		}
+	.tituloEspionagem	{
+								#margin-top: 30px;
+								margin-left: 200px;
+								font-family: 'LM Roman Unslanted 10';
+								font-size: 30px;
+								text-shadow: 10px 10px 5px gray;
+		}
+	.resp	{
+				margin-left: 800px;
+				font-size: 28px;
+	}
+	.copyright	{
+						font-size: 20px;
+		}
+	.botaoPrincipal {
+							float: left;
+							margin-left: 100px;
+							display: block;
+			}
+	.gifPrincipal 	{				
+							float: left;
+			}
+	.gifSelecArm 	{				
+							float: left;
+							position: fixed;
+							margin-top: 177px;
+							margin-left: 776px;
+			}
+	.nav01	{
+					position: absolute;
+					float: left;
+					top: 100px;
+		}
+	.nav02	{			
+					position: absolute;
+					top: 100px;
+					margin-left: 990px;
+		}
+	.ulsidebar	{
+						list-style: none;	
+						margin: 20px;
+						color: black;			
+			}
+	.ulsidebar li {
+							padding: 10px;
+							margin: 5px;
+							border-radius: 50px;
+							background-color: gray;
+							text-align: center;
+							color: white;
+		}
+	.ulsidebar li:hover	{
+									background-color: white;
+									color: black;	
+		}
+	.ulsidebar li a:visited	{
+									color: white;
+									background-color: white;	
+		}
+	.login	{
+					margin: 10px;
+		}
+	.sombra	{
+					background-color: #d9bf9e;
+					box-shadow: 5px 5px 1px black;
+					font-size: 20px;
+		}
+		
+	.btn {
+				background: #3498db;
+				background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+				background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+				background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+				background-image: -o-linear-gradient(top, #3498db, #2980b9);
+				background-image: linear-gradient(to bottom, #3498db, #2980b9);
+				-webkit-border-radius: 28;
+				-moz-border-radius: 28;
+				border-radius: 28px;
+				font-family: Arial;
+				color: #ffffff;
+				font-size: 20px;
+				padding: 10px 20px 10px 20px;
+				text-decoration: none;
+		}
+	.btn:hover {
+						background: #3cb0fd;
+						background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+						background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+						text-decoration: none;
+			}
+	#btn {
+				margin:50;
+		}
+	#btn2 {
+				margin:100;
+		}
+	#btn3 {
+				margin:40 150;
+		}
+
+	.post	{
+ 				overflow:hidden;
+		}
+	.selecao	{
+					background-color: rgba(0, 0, 0, 0.42);	
+					overflow:auto;
+					margin: auto;
+					height: 1200px;
+		}	
+	#btnSimular {	
+						position:fixed;
+						bottom:10px;
+						right:10px;
+			}
+	#btnSimular ul {
+									list-style: none;					
+									display: inline;
+				}
+	#btnSimular li	{
+									list-style: none;					
+									display: inline;
+									padding: 5px;
+									border-radius: 28px;
+				}
+		
+	.defAtk {
+					text-align: center;
+					font-size: 30px;
+		}
+
+	.smlComb,select {
+							font-size: 20px;
+							font-weight: bold;
+			}
